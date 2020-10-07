@@ -1,0 +1,479 @@
+@font-face {
+    font-family: firago;
+    src: url(/fonts/FiraGO-Regular.ttf);
+  }
+
+
+section {
+    width: 659px;
+    height: 844px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin:40px /* for  example */
+}
+
+body {
+    background: #f1f5f8
+}
+
+button {
+    width: 101px;
+    height: 38px;
+    border-radius: 46px;
+    border: solid 2px #afafaf;
+    border-style: dotted;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+button:hover,
+button:active,
+button:focus {
+  outline: 0;
+}
+
+button:hover{
+    border: solid 2px #ff4e00;
+    border-style: dotted;
+}
+
+button .text{
+    width: 14px;
+    height: 14px;
+    font-family:firago;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #536a8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button img{
+    width: 23px;
+    height: 20px;
+}
+button img, .text, .round{
+    margin: 7px;
+}
+
+/*ceckbox*/
+.round {
+    position: relative;
+  }
+  
+.round label {
+background-color: #fff;
+border: 1px solid #ff4e00;
+border-radius: 22px;
+cursor: pointer;
+height: 18px;
+left: 0;
+position: absolute;
+top: 0;
+width: 18px;
+}
+
+.round label:after {
+border: 2px solid #fff;
+border-top: none;
+border-right: none;
+content: "";
+height: 6px;
+left: 3px;
+position: absolute;
+top: 3px;
+transform: rotate(-45deg);
+width: 8px;
+}
+
+.round input[type="checkbox"] {
+visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+background-color: #ff4e00;;
+border-color: #fff;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+opacity: 1;
+}
+/*ceckbox done*/
+
+.Image-7{
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    text-align: right;
+}
+
+.facebook{
+    width: 130px;
+    height: 38px;
+    border-radius: 46px;
+    border: solid 2px #afafaf;
+    border-style: dotted;
+    background: none;
+}
+.fc-txt{
+    width: 51px;
+    height: 14px;
+    font-family: firago;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #2c435a;
+    text-align: right;
+}
+
+li .contain{
+    width: 26px;
+    height: 26px;
+    border-radius: 22px;
+    border: solid 1px #d3d3d3;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.google{
+    width: 130px;
+    height: 38px;
+    border-radius: 46px;
+    border: solid 2px #afafaf;
+    border-style: dotted;
+    background: none;
+}
+
+.google-txt{
+    width: 38px;
+    height: 14px;
+    font-family: firago;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2c435a;
+}
+
+.Image-8{
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+}
+
+button:hover .text{ 
+    color: #ff4e00;
+}
+
+button:hover .fc-txt{
+    color: #ff4e00;
+}
+
+button:hover .google-txt{
+    color: #ff4e00;
+}
+
+.left{
+    position: relative;
+    left: 90px;
+}
+
+ul{
+    display: flex;
+    padding: 15px;
+    margin: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.left button{
+    width: 130px;
+    height: 38px;
+    border-radius: 6px;
+    box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #ff4e00;
+    background-color: #ffede5;
+}
+
+.lightning{
+    width: 6.9px;
+    height: 11.1px;
+}
+
+.down-arrow{
+    width: 7px;
+    height: 4px;
+}
+
+.txt{
+    width: 593px;
+    height: 36px;
+    border-radius: 8px;
+    border: solid 1px #d8d8d8;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.txt p{
+    width: 426px;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-left: 20px;
+}
+
+hr{
+    height: 0;
+    border: solid 1px #d8d8d8;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+  }
+
+.content {
+    text-align: left;
+    margin: 10px
+}
+
+.month{
+    color: #7c899d;
+    font-size: 14px;
+}
+
+.campaign{
+    width: 108px;
+    font-family: FiraGO;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #2e3849;
+}
+
+.content img{
+    width: 12px;
+    height: 6px;
+    object-fit: contain;
+    float: right;
+}
+
+.hr{
+    width: 100%;
+    height: 0;
+    border: solid 1px #d8d8d8;
+}
+
+.audiences img{
+    width: 34px;
+    height: 19.2px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.audiences {
+    width: 586px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 1px #ff4e00;
+    font-family: firago;
+    padding: 0px 0px 10px 20px;
+    margin: 20px 0px 20px 20px;
+}
+
+.audiences ul{
+    padding:15px
+}
+
+.creating {
+    width: 465px;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.creat{
+    width: 93px;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12pxfinput;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff4e00;
+    margin-top:3px
+}
+
+.register{
+    background:#f0f0f0;
+    padding: 25px 0px 0px 25px;
+}
+
+.register input[type="radio"]{
+    margin-left: 15px;
+}
+
+
+.register span{
+    width: 85px;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.register label {
+    width: 26px;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+} */
+
+.age{
+    width: 283px;
+    height: 54px;
+    border-radius: 8px;
+    border: solid 1px #d8d8d8;
+    background-color: #ffffff;
+}
+
+.age .contain{
+    width: 47px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 1px #d3d3d3;
+    background-color: #ffffff;
+    float: right;
+    text-align: center;
+    align-items: center;
+}
+
+.age .contain {
+    position: relative;
+    top:15px
+}
+
+.age .contain img{
+    position: relative;
+    top: 3px;
+}
+
+input[type="number"]{
+    width: 30px;
+    border: 1px solid gray;
+    border-radius:5px
+} 
+/* 
+.choose{
+    margin-top: 25px;
+    width: 586px;
+    height: 54px;
+    border-radius: 8px;
+    border: solid 1px #d8d8d8;
+    background-color: #ffffff;
+}
+
+.choose span{
+    width: 66px;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c899d;
+}
+.choose select{
+    outline:none;
+    width: 100%;
+    border:none;
+    height: 14px;
+    font-family: FiraGO;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e3849;
+}
+
+.choose select:focus{outline:none}
+
+.notification{
+    display: flex;
+    width: 586px;
+    height: 32px;
+
+}
+
+.notification{
+    display: flex;
+    width: 586px;
+    height: 32px;
+    border-radius: 27px;
+    border: solid 1px #bfbfbf;
+    border-style: dotted;
+    padding:5px
+}
+
+.notification img{
+    width: 7.1px;
+    height: 9px;
+    object-fit: contain;
+} 
